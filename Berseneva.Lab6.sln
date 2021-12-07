@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berseneva.Lab6.Exercise1", "Berseneva.Lab6.Exercise1\Berseneva.Lab6.Exercise1.csproj", "{E07BD9BF-F241-49CF-9006-E9DF0E649374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berseneva.Lab6.Exercise2.1", "Berseneva.Lab6.Exercise2.1\Berseneva.Lab6.Exercise2.1.csproj", "{F08AC318-6C56-442D-BA9B-9E232F1FDB43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E07BD9BF-F241-49CF-9006-E9DF0E649374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07BD9BF-F241-49CF-9006-E9DF0E649374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07BD9BF-F241-49CF-9006-E9DF0E649374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07BD9BF-F241-49CF-9006-E9DF0E649374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08AC318-6C56-442D-BA9B-9E232F1FDB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08AC318-6C56-442D-BA9B-9E232F1FDB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08AC318-6C56-442D-BA9B-9E232F1FDB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08AC318-6C56-442D-BA9B-9E232F1FDB43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3A326F2-2D9C-45C7-9C0E-EB793EA5C7BD}
+	EndGlobalSection
+EndGlobal
