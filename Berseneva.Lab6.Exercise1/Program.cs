@@ -7,8 +7,6 @@ namespace Berseneva.Lab6.Exercise1
         static void Main(string[] args)
         {
             int n;
-
-
             Console.WriteLine("Введите количество элементов в массиве n:");
             n = int.Parse(Console.ReadLine());
 
@@ -24,11 +22,12 @@ namespace Berseneva.Lab6.Exercise1
             var b = MaxValue(MyarrayInt);
             Console.WriteLine("Максимальный элемент массива: " + b);
             Change(b, MyarrayInt);
-            Console.WriteLine();            
         }
         static int MaxValue(int[] MyarrayInt)
         {
             int minValue = int.MinValue;
+            
+            
             for (int i = 0; i < MyarrayInt.GetLength(0); i++)
             {
                 if (minValue < MyarrayInt[i])
@@ -38,13 +37,28 @@ namespace Berseneva.Lab6.Exercise1
             }
             return minValue;
         }
-        public static void Change(int MaxValue, int[] MyarrayInt)
+        public static void Change(int maxValue, int[] MyarrayInt)
         {
-            for (int i = 0; i < MyarrayInt.GetLength(0); i++)
-            {
-                int a = MyarrayInt[0];
-                MyarrayInt[0] = MaxValue;
-                a = MaxValue;
+            if (MyarrayInt.Length == 0)
+                return;
+
+            var m = MyarrayInt[0];
+            var max = maxValue;
+
+            if (m == max)
+                return;
+
+            for (int i = 0; i < MyarrayInt.Length; i++)
+            {                
+                if (MyarrayInt[i] == m)
+                {
+                    MyarrayInt[i] = max;
+                }
+
+                else if (MyarrayInt[i] == max)
+                {
+                    MyarrayInt[i] = m;
+                }
                 Console.WriteLine(MyarrayInt[i]);
             }
         }
